@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Accueil</title>
+	<link rel="stylesheet" type="text/css" href="../css/accueil.css">
+	<link rel="icon" type="text/css" href="../img/lg1.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../js/accueil.js"></script>
+</head>
+<body>
+	<div class="nav">
+			<div id="logo">
+					<i class="fa fa-bars" id="bars" aria-hidden="true"></i>
+					<span>RAMAQS</span>
+			</div>
+			<div>
+					<span class="nav-d">Connexion</span>
+					<span class="nav-d">Gestion</span>
+					<span class="nav-d">Menu</span>
+				</ul>
+			</div>
+	</div>
+
+	<div id="middle">
+
+		<div id="m-g">
+			
+			<div id="gestion">
+				<div class="titre-en">
+					<span><img id="menu-img" src="../img/menu.png"></span>
+					<span>Gestion Des Utilisateurs</span>
+				</div><br/>
+
+				<div id="Documents">
+					<div class="titre-en">
+						<span><img id="menu-img" src="../img/menu.png"></span>
+						<span id="gel" onclick="gel()">Gestion des documents</span>
+					</div><br/>
+						<div id="gdoc-el">
+							<div id="actuels">
+								<div id="titresecA" class="titresec">
+									<span><img id="menu-img" src="../img/doc.png"></span>
+									<span id="ac" onclick="ac()">Actuels</span>
+								</div>
+								<div id="dqiA" class="DQI">
+									<span>Documents de Qualité Internes</span>
+									<div id="DQI-el">
+										<span><a href="EQ-DQI.html">Enregistrements Qualité</a></span><br/><br/>
+										<span><a href="FQ-DQI.html">Fiches Qualité</a></span><br/><br/>
+										<span>Instructions de Travail</span><br/><br/>
+										<span>Modes Opératoires</span>
+										
+									</div>
+								</div>
+								<div id="dqeA" class="DQE">
+									<span class="titre-en">Documents de Qualité Externes</span>
+									<div id="DQE-el">
+										<span><a href="FQ-DQE.html">Fiches Qualité</a></span><br/><br/>
+									</div>
+								</div>
+								
+							</div>
+							<div id="archives">
+								<div id="titresecB" class="titresec">
+									<span><img id="menu-img" src="../img/ar.png"></span>
+									<span id="ar" onclick="ar()">Archives</span>
+								</div>
+								<div id="dqiB" class="DQI">
+									<span>Documents de Qualité Internes</span>
+									<div id="DQI-el">
+										<span>Enregistrements Qualité</span><br/><br/>
+										<span>Fiches Qualité</span><br/><br/>
+										<span>Instructions de Travail</span><br/><br/>
+										<span>Modes Opératoires</span>
+										
+									</div>
+								</div>
+								<div id="dqeB" class="DQE">
+									<span class="titre-en">Documents de Qualité Externes</span>
+									<div id="DQE-el">
+										<span>Fiches Qualité</span><br/><br/>
+									</div>
+								</div>
+							</div>
+								
+								<span></span>							
+						</div>
+
+					
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="m-d">
+			<form>
+				<input type="submit" value="Valider"><br/>
+				<div class="field-flex">
+					<fieldset>
+						<legend>Informations Personnelles</legend>
+						<div class="form-op-div">
+							<label>Nom : </label>
+							<input type="text" name="">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Prénoms : </label>
+							<input type="text" name="">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Adresse Email : </label>
+							<input type="mail">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Login : </label>
+							<input type="text" name="">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Mot de Passe : </label>
+							<div>
+								<input type="password" name="">
+							</div>
+						</div><br/>
+						<div class="form-op-div">
+							<label>Date de Naissance : </label>
+							<input type="date" name="">
+						</div><br/>
+					</fieldset>
+					<fieldset>
+						<legend>Poste</legend>
+						<div class="form-op-div">
+							<label>Département : </label>
+							<select>
+								<option></option>
+							</select>
+						</div><br/>
+						<div class="form-op-div">
+							<label>Fonction : </label>
+							<input type="text" disabled="disabled">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Responsable dept. : </label>
+							<input type="text" name="">
+						</div><br/>
+					</fieldset>
+				</div><br/>
+			</form>
+			
+		</div>
+		
+
+	</div>
+</body>
+</html>

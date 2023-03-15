@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fiches Qualité</title>
+	<link rel="stylesheet" type="text/css" href="../css/FQ-DQI.css">
+	<link rel="icon" type="text/css" href="../img/lg1.png">
+	<script src="../js/fq-dqi.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section id="page-modif" class="page-modif-class">
+		<div class="nouv-op">
+
+			<form class="form-op">
+				<div class="op-titre">
+					<span>Registre des Documents internes</span>
+					<div id="right">
+						<span class="ferm-div" onclick="ret()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PR-01-FQ-01" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Procédure / Processus </th>
+							<th>Désignation Produit</th>
+							<th>Référence</th>
+							<th>Rédaction</th>
+							<th>Vérification</th>
+							<th>Validation</th>
+						</tr>
+						<tr>
+							<td><input type="text" id="pprdi" name="pprdi"></td>
+							<td><input type="text" id="dprdi" name="dprdi"></td>
+							<td><input type="text" id="rdi" name="rdi"></td>
+							<td><input type="text" id="redrdi" name="redrdi"></td>
+							<td><input type="text" id="vrdi" name="vrdi"></td>
+							<td><input type="text" id="vardi" name="vardi"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifA" class="page-modif-classA">
+		<div id="nouv-opA">
+
+			<form id="form-opA">
+				<div id="op-titreA">
+					<div id="leftA">
+							<span>Registre des Enregistrements de Qualité</span>
+					</div>
+					<div id="rightA">
+						<span class="ferm-div" onclick="retA()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PR-02-FQ-01" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de Création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification : </label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th rowspan="3">Procédure / Processus </th>
+							<th rowspan="3">Désignation de L'enregistrement</th>
+							<th rowspan="3">Référence</th>
+							<th colspan="9">Classement</th>
+							<th rowspan="3">Archivage ? Oui/Non</th>
+							<th colspan="4">Archivage</th>
+						</tr>
+						<tr>
+							<th rowspan="2">Type d'indexage</th>
+							<th rowspan="2">Responsable</th>
+							<th rowspan="2">Lieu</th>
+							<th rowspan="2">Durée</th>
+							<th colspan="3">Accès</th>
+							<th colspan="2">Protection</th>
+							<th rowspan="2">Responsable</th>
+							<th rowspan="2">Lieu</th>
+							<th rowspan="2">Durée</th>
+							<th rowspan="2">Mode de destruction</th>
+						</tr>
+						<tr>
+							<th>Général</th>
+							<th>Limité</th>
+							<th>Confidentiel</th>
+							<th>Haute</th>
+							<th>Normale</th>
+						</tr>
+						<tr>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifB" class="page-modif-classB">
+		<div class="nouv-op">
+
+			<form id="form-opB">
+				<div id="op-titreB">
+					<div id="leftB">
+						<span>Repertoire des Fiches</span>
+					</div>
+					<div id="rightB">
+						<span class="ferm-div" onclick="retB()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PR-01-FQ-03" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Procédure / Processus </th>
+							<th>Désignation de la fiche</th>
+							<th>Référence</th>
+							<th>Version</th>
+							<th>Rédacteur</th>
+							<th>Lieu de Classement</th>
+							<th>Lieu d'archivage</th>
+							<th>Points de diffusion</th>
+						</tr>
+						<tr>
+							<td><input type="text" id="pprf" name="pprf"></td>
+							<td><input type="text" id="dfrf" name="dfrf"></td>
+							<td><input type="text" id="rrf" name="rrf"></td>
+							<td><input type="text" id="vrf" name="vrf"></td>
+							<td><input type="text" id="redrf" name="redrf"></td>
+							<td><input type="text" id="lcrf" name="lcrf"></td>
+							<td><input type="text" id="larf" name="larf"></td>
+							<td><input type="text" id="pdrf" name="pdrf"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifC" class="page-modif-classC">
+		<div class="nouv-op">
+
+			<form id="form-opC">
+				<div id="op-titreC">
+					<div id="leftC">
+						<span>Liste des Auditeurs Internes Qualifiés</span>
+					</div>
+					<div id="rightC">
+						<span class="ferm-div" onclick="retC()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="A-PR-03-FQ-01" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th rowspan="2">Nom et Prénoms </th>
+							<th colspan="3">Auditeur</th>
+							<th colspan="2">Responsable d'Audit</th>
+							<th rowspan="2">Décision</th>
+						</tr>
+						<tr>
+							<th>Formation de<br/>base<br/>Minimum bac<br/>+2</th>
+							<th>Expérience<br/>Minimale de 1 an</th>
+							<th>Formé sur Audit</th>
+							<th>Formation de<br/>Base Minimum<br/>bac +4</th>
+							<th>Formé sur l'audit</th>
+
+						</tr>
+						<tr>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifD" class="page-modif-classD">
+		<div class="nouv-op">
+
+			<form id="form-opC">
+				<div id="op-titreC">
+					<div id="leftC">
+						<span>Liste des Indicateurs par Processus</span>
+					</div>
+					<div id="rightD">
+						<span class="ferm-div" onclick="retD()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="M-PS-01-FQ-01" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th rowspan="2">Processus</th>
+							<th colspan="2">Indicateurs</th>
+							<th rowspan="2">Objet de l'indicateur</th>
+							<th rowspan="2">Fréquence de Mesure</th>
+							<th colspan="2">Présentation</th>
+							<th colspan="3">Mode de Présentation</th>
+							<th rowspan="2">Responsable de collecte</th>
+						</tr>
+						<tr>
+							<th>Indicateurs</th>
+							<th>Formule</th>
+							<th>Chaque Revue <br/>de Processus</th>
+							<th>Chaque Revue<br/>de direction</th>
+							<th>% ou<br/>tableau</th>
+							<th>Graphe</th>
+							<th>Evolution</th>
+
+						</tr>
+						<tr>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifE" class="page-modif-classE">
+		<div id="nouv-opA">
+
+			<form id="form-opA">
+				<div id="op-titreA">
+					<div id="leftA">
+							<span>Fiche de Réglage Machine</span>
+					</div>
+					<div id="rightE">
+						<span class="ferm-div" onclick="retE()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PS-02-FQ-02" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de Création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification : </label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Machine </th>
+							<th>Matière 1ère</th>
+							<th>Article</th>
+							<th>Réglage<br/>Température</th>
+							<th>Réglage Outillage</th>
+						</tr>
+						<tr>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+							<td><input type="" name=""></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifF" class="page-modif-classF">
+		<div class="nouv-op">
+
+			<form id="form-opC">
+				<div id="op-titreC">
+					<div id="leftC">
+						<span>Fiche Technique Article</span>
+					</div>
+					<div id="rightF">
+						<span class="ferm-div" onclick="retF()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="R-PS-04-FQ-02" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Article : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date <br/>d'édition :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Etabli par : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Approuvé par : </label>
+					<input type="text">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Caractéristique</th>
+							<th>Valeur</th>
+							<th>Tolérance</th>
+						</tr>
+						<tr>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="page-modifG" class="page-modif-classG">
+		<div class="nouv-op">
+
+			<form id="form-opC">
+				<div id="op-titreC">
+					<div id="leftC">
+						<span>Plan de Contrôle</span>
+					</div>
+					<div id="rightG">
+						<span class="ferm-div" onclick="retG()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="R-PS-04-FQ-01" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Nature du <br/> Plan <br/>De Contrôle : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date <br/>d'édition :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Caractéristique</th>
+							<th>Intervenants</th>
+							<th>Lieu de<br/>controle</th>
+							<th>Fréquence</th>
+							<th>Documents</th>
+							<th>Outils</th>
+							<th>Critères</th>
+							<th>Modes<br/>Opératoires</th>
+						</tr>
+						<tr>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+	<section id="page-modifH" class="page-modif-classH">
+		<div class="nouv-op">
+
+			<form id="form-opC">
+				<div id="op-titreC">
+					<div id="leftC">
+						<span>Fiche de Poste</span>
+					</div>
+					<div id="rightH">
+						<span class="ferm-div" onclick="retH()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PS-01-FQ-02" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Intitulé : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date <br/>d'édition :</label>
+					<input type="date" value="">
+				</div><br/>
+
+				<div class="form-op-div">
+					<label for="">Mission : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Fonctions</th>
+							<th>Activités</th>
+						</tr>
+						<tr>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+	<section id="page-modifI" class="page-modif-classI">
+		<div id="nouv-opI">
+
+			<form id="form-opC">
+				<div class="op-titre">
+					<span>Fiche d'Identification Machine </span>
+					<div id="rightI">
+						<span class="ferm-div" onclick="retI()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PS-02-FQ-03" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date d'édition :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flexA">
+					<fieldset>
+						<legend>Equipement</legend>
+						<div class="form-op-div">
+							<label for="">Désignation : </label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Marque :</label>
+							<input type="text" name="">
+						</div><br/>
+						<div class="form-op-div">Modèle :</label>
+							<input type="text" name="">
+						</div><br/>
+						<div class="form-op-div">
+							<label>N° de Série :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Date de Fabrication :</label>
+							<input type="date" name="">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Code Equipement :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Code Ligne de<br/>Production :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Ligne de Production :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Nom du Constructeur :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Adresse :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Tel :</label>
+							<input type="tel">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Nom du constructeur :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Adresse :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Tel :</label>
+							<input type="tel">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Nom du Fournisseur :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Adresse :</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Tel :</label>
+							<input type="tel">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Date de reception Machine :</label>
+							<input type="date">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Date de Mise<br/>en service:</label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label>Référence documents techniques et manuels :</label>
+							<textarea></textarea>
+						</div><br/>
+					</fieldset>
+					<fieldset>
+						<legend>Caractéristiques Techniques</legend>
+						<div class="form-op-div">
+							<label for="">Capacité : </label>
+							<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+							<label for="">Vitesse : </label>
+							<input type="text">
+						</div><br/>
+					</fieldset>
+					<fieldset>
+						<legend>Informations Supplémentaires</legend>
+						<fieldset>
+							<legend>Air Comprimé</legend>
+							<div class="form-op-div">
+								<label for="">Désignation : </label>
+								<input type="text">
+							</div><br/>
+							<div class="form-op-div">
+								<label for="">Code : </label>
+								<input type="text">
+							</div><br/>
+							<div class="form-op-div">
+								<label for="">Caractéristiques : </label>
+								<textarea></textarea>
+							</div><br/>
+						</fieldset>
+						<fieldset>
+							<legend>Eau Réfrigérée</legend>
+							<div class="form-op-div">
+								<label for="">Désignation : </label>
+								<input type="text">
+							</div><br/>
+							<div class="form-op-div">
+								<label for="">Code : </label>
+								<input type="text">
+							</div><br/>
+							<div class="form-op-div">
+								<label for="">Caractéristiques : </label>
+								<textarea></textarea>
+							</div><br/>
+						</fieldset>
+						<fieldset><br/>
+							<legend>Autres</legend>
+							<div class="form-op-div">
+								<label for="">Désignation : </label>
+								<input type="text">
+							</div><br/>
+							<div class="form-op-div">
+								<label for="">Code : </label>
+								<input type="text">
+							</div><br/>
+							<div class="form-op-div">
+								<label for="">Caractéristiques : </label>
+								<textarea></textarea>
+							</div><br/>
+						</fieldset>
+						<div class="form-op-div">
+								<label for="">Etabli Par : </label>
+								<input type="text">
+						</div><br/>
+						<div class="form-op-div">
+								<label for="">Approuvé Par : </label>
+								<input type="text">
+						</div><br/>
+					</fieldset>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+	<section id="page-modifJ" class="page-modif-classJ">
+		<div class="nouv-op">
+
+			<form id="form-opC">
+				<div id="op-titreC">
+					<div id="leftC">
+						<span>Liste des Equipements</span>
+					</div>
+					<div id="rightH">
+						<span class="ferm-div" onclick="retJ()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PS-05-FQ-01" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date <br/>d'édition :</label>
+					<input type="date" value="">
+				</div><br/>
+
+				<div class="form-op-div">
+					<label for="">Département : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Etabli Par : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Approuvé Par : </label>
+					<input type="text">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Désignation</th>
+							<th>Code</th>
+							<th>Observations</th>
+						</tr>
+						<tr>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+	<section id="normal-page" class="normal-page-class ap">
+		<div class="nav">
+				<div id="logo">
+						<i class="fa fa-bars" id="bars" aria-hidden="true"></i>
+						<span><a href="accueil.html">RAMAQS</a></span>
+				</div>
+				<div>
+						<span class="nav-d">Connexion</span>
+						<span class="nav-d">Gestion</span>
+						<span class="nav-d">Menu</span>
+					</ul>
+				</div>
+		</div>
+
+			<div id="middle">
+
+				<div id="m-g">
+					
+					<div id="gestion">
+						<div class="titre-en">
+							<span><img id="menu-img" src="../img/menu.png"></span>
+							<span>Gestion Des Utilisateurs</span>
+						</div><br/>
+
+						<div id="Documents">
+							<div class="titre-en">
+								<span><img id="menu-img" src="../img/menu.png"></span>
+								<span id="gel" onclick="gel()">Gestion des documents</span>
+							</div><br/>
+								<div id="gdoc-el">
+									<div id="actuels">
+										<div id="titresecA" class="titresec ap">
+											<span><img id="menu-img" src="../img/doc.png"></span>
+											<span id="ac" onclick="ac()">Actuels</span>
+										</div>
+										<div id="dqiA" class="DQI ap">
+											<span>Documents de Qualité Internes</span>
+											<div id="DQI-el">
+												<span><a href="EQ-DQI.html">Enregistrements Qualité</a></span><br/><br/>
+												<span><a href="FQ-DQI.html">Fiches Qualité</a></span><br/><br/>
+												<span>Instructions de Travail</span><br/><br/>
+												<span>Modes Opératoires</span>
+												
+											</div>
+										</div>
+										<div id="dqeA" class="DQE ap">
+											<span class="titre-en">Documents de Qualité Externes</span>
+											<div id="DQE-el">
+												<span><a href="FQ-DQE.html">Fiches Qualité</a></span><br/><br/>
+											</div>
+										</div>
+										
+									</div>
+									<div id="archives">
+										<div id="titresecB" class="titresec ap">
+											<span><img id="menu-img" src="../img/ar.png"></span>
+											<span id="ar" onclick="ar()">Archives</span>
+										</div>
+										<div id="dqiB" class="DQI">
+											<span>Documents de Qualité Internes</span>
+											<div id="DQI-el">
+												<span>Enregistrements Qualité</span><br/><br/>
+												<span>Fiches Qualité</span><br/><br/>
+												<span>Instructions de Travail</span><br/><br/>
+												<span>Modes Opératoires</span>
+												
+											</div>
+										</div>
+										<div id="dqeB" class="DQE">
+											<span class="titre-en">Documents de Qualité Externes</span>
+											<div id="DQE-el">
+												<span>Fiches Qualité</span><br/><br/>
+											</div>
+										</div>
+									</div>
+										
+										<span></span>							
+								</div>
+
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="m-d">
+					<div id="part-form">
+						<button onclick="of()"><span>1.</span><br/>Registre des documents internes</button>
+						<button onclick="ofA()"><span>2.</span><br/>Repertoire des Enregistrements de Qualité</button>
+						<button onclick="ofB()"><span>3.</span><br/>Registre des Fiches</button><br/>
+						<button onclick="ofC()"><span>4.</span><br/>Liste des Auditeurs Internes Qualifiés</button>
+						<button onclick="ofD()"><span>5.</span><br/>Liste des Indicateurs Par Processus</button>
+						<button onclick="ofE()"><span>6.</span><br/>Fiche de Réglage Machine</button><br/>
+						<button onclick="ofF()"><span>7.</span><br/>Fiche Technique Article</button>
+						<button onclick="ofG()"><span>8.</span><br/>Plan de Contrôle</button>
+						<button onclick="ofH()"><span>9.</span><br/>Fiche de Poste</button><br/>
+						<button onclick="ofI()"><span>10.</span><br/>Fiche d'identification Machine</button>
+						<button onclick="ofJ()"><span>11.</span><br/>Liste des Equipements</button>
+
+
+						
+					</div>
+				</div>
+				
+
+			
+		</div>
+	</section>
+</body>
+</html>

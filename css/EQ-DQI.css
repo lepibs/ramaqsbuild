@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.page-modif-class,.page-modif-classA,.page-modif-classB,.page-modif-classC,.page-modif-classD,.page-modif-classE,.page-modif-classF,.page-modif-classG,.page-modif-classH,.page-modif-classI,.page-modif-classJ,.page-modif-classK,.page-modif-classL,.page-modif-classM,.page-modif-classN,.page-modif-classO,.page-modif-classP,.page-modif-classQ,.page-modif-classR,.page-modif-classS,.page-modif-classT,.page-modif-classU,.page-modif-classV,.page-modif-classW,.page-modif-classX,.page-modif-classY,.page-modif-classZ,.page-modif-classA1,.page-modif-classA2,.page-modif-classA3,.page-modif-classA4,.page-modif-classA5,.page-modif-classA5,.page-modif-classA6,.page-modif-classA7,.page-modif-classA8,.page-modif-classA9,.page-modif-classA10,.page-modif-classA11
+{
+  display: none;
+}
+.page-modif-class.ap,.page-modif-classA.ap,.page-modif-classB.ap,.page-modif-classC.ap,.page-modif-classD.ap,.page-modif-classE.ap,.page-modif-classF.ap,.page-modif-classG.ap,.page-modif-classH.ap,.page-modif-classI.ap,.page-modif-classJ.ap,.page-modif-classK.ap,.page-modif-classL.ap,.page-modif-classM.ap,.page-modif-classN.ap,.page-modif-classO.ap,.page-modif-classP.ap,.page-modif-classQ.ap,.page-modif-classR.ap,.page-modif-classS.ap,.page-modif-classT.ap,.page-modif-classU.ap,.page-modif-classV.ap,.page-modif-classW.ap,.page-modif-classX.ap,.page-modif-classY.ap,.page-modif-classZ.ap,.page-modif-classA1.ap,.page-modif-classA2.ap,.page-modif-classA3.ap,.page-modif-classA4.ap,.page-modif-classA5.ap,.page-modif-classA6.ap,.page-modif-classA7.ap,.page-modif-classA8.ap,.page-modif-classA9.ap,.page-modif-classA10.ap,.page-modif-classA11.ap
+{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: #f2f2f2;
+}
+.normal-page-class
+{
+  display: none;
+}
+.normal-page-class.ap
+{
+  display: block;
+}
+#nouv-op
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+}
+#nouv-opA
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+}
+#nouv-opB
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+  height: 529px;
+  overflow-y: auto;
+}
+#nouv-opC
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+  height: 529px;
+  overflow-y: auto;
+}
+#nouv-opF
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+   height: 529px;
+   overflow: auto;
+}
+#nouv-opI
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+   height: 529px;
+   overflow: auto;
+}
+#nouv-opV,#nouv-opY,#nouv-opA2
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+   height: 529px;
+   overflow: auto;
+}
+legend
+{
+  padding: 5px;
+}
+.op-titre,#op-titre
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#valid-op
+{
+  padding: 10px;
+  border:none;
+  background: #25bb41;
+  color: white;
+  cursor: pointer;
+
+}
+input
+{
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 1px solid black;
+}
+fieldset
+{
+  padding: 45px;
+  margin: 15px;
+}
+#form-op,.form-op,#form-opB
+{
+  display: block; 
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+.form-op::-webkit-scrollbar
+{
+  width: 0px;
+}
+.form-op-div
+{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+#field-flex,.field-flex,#field-flexB,.field-flexA
+{
+  display: flex;
+  justify-content: space-between;
+}
+#field-flexB
+{
+  overflow: auto;
+}
+.nav{
+
+  color: white;
+  background-color: #25bb41;
+  padding: 20px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+#bars{
+  font-size: 150%;
+}
+#logo
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}.nav-d
+{
+  padding: 10px;
+}
+#middle
+{
+  width: 100%;
+  height: 100%;
+  background-color: #fdfcff;
+  display: flex;
+  position: fixed;
+}
+#menu-img
+{
+  width: 12%;
+  position: relative;
+  top: 11px;
+  left: 8px;
+  margin-right: 10px;
+
+}
+#m-g::-webkit-scrollbar,#m-d::-webkit-scrollbar,body::-webkit-scrollbar
+{
+  width: 0;
+}
+#m-g
+{
+  width: 25%;
+  background-color:#25BB41;
+  color: white;
+  overflow: auto;
+  white-space: nowrap;
+  display: grid;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+#m-d
+{
+  width: 75%;
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+.titresec
+{
+  margin-left: 30px;
+  margin-bottom: 40px;
+  display: none;
+}
+.titresec.ap
+{
+  display: block;
+}
+#titre-en
+{
+  margin-bottom: 20px;
+}
+.DQI,.DQE,#DQI-el,#DQE-el
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.part-formA.ap,.part-formB.ap,.part-formC.ap
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.part-form,.part-formG,.part-formI,.DQI,.DQE,.part-formA,.part-tableA,.part-form,.part-formB,.part-tableB,.part-formC,.part-tableC,.part-formD,.part-formE,.part-formF,.part-formH,.part-formJ,.part-formK,.part-formL,.part-formM
+{
+  display: none;
+}
+ .DQI.ap,.DQE.ap,.part-tableA.ap,.part-form.ap,.part-tableB.ap,.part-tableC.ap,.part-formI.ap,.part-formD.ap,.part-formE.ap,.part-formF.ap,.part-formH.ap,.part-formJ.ap,.part-formK.ap,.part-formL.ap,.part-formM.ap
+ {
+  display: block;
+ }
+ input[list="Op"]
+ {
+   width: 280px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background: none;
+  outline: none;
+  position: relative;
+  right: 10px;
+  border: 2px solid #25BB41;
+ }
+ .part-formC form input[list="Op"]
+ {
+  left: 30px;
+ }
+ .part-form.ap,.part-formD.ap,.part-formE.ap,.part-formF.ap,.part-formG.ap,.part-formH.ap,.part-formI.ap,.part-formJ.ap,.part-formK.ap,.part-formL.ap,.part-formM.ap
+ {
+   width: 100%;
+  height: 100%;
+  text-align: center;
+ }
+ #ferm-div,.ferm-div
+ {
+  background: #66D3FA;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+ }
+ #right,#rightA2,#rightA3,#rightA5
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+ }
+  #rightD
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 1170px;
+ }
+ #rightE
+ {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    position: relative;
+    left: 800px;
+ }
+  #rightG
+ {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    position: relative;
+    left: 110px;
+ }
+#rightF
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+ }
+ #rightI
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 170px;
+ }
+  #rightK
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 220px;
+ }
+#rightL
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 620px;
+ }
+#rightM
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 270px;
+ }
+ #rightN
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 170px;
+ }
+  #rightO
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+ }
+ #rightP
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 1500px;
+ }
+#rightQ
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 330px;
+ }
+ #rightR
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 830px;
+ }
+ #rightS
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 1330px;
+ }
+ #rightT
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 2000px;
+ }
+  #rightX
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 650px;
+ }
+  #rightY
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 350px;
+ }
+  #rightZ
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 520px;
+ }
+  #rightA4
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 380px;
+ }
+#rightA8
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 300px;
+ }
+ #rightA9
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 1350px;
+ }
+  #rightA10
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 320px;
+ }
+#rightA11
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  position: relative;
+  left: 250px;
+ }
+
+  .part-form.ap button,.part-formD.ap button,.part-formE.ap button,.part-formF.ap button,.part-formG.ap button,.part-formH.ap button,.part-formI.ap button,.part-formJ.ap button,.part-formK.ap button,.part-formL.ap button,.part-formM.ap button
+ {
+  background: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+ }
+ .part-form.ap button:hover,.part-formD.ap button:hover,.part-formE.ap button:hover,.part-formF.ap button:hover,.part-formG.ap button:hover,.part-formH.ap button:hover,.part-formI.ap button:hover,.part-formJ.ap button:hover,.part-formK.ap button:hover,.part-formL.ap button:hover,.part-formM.ap button:hover
+ {
+  background: #25bb41;
+  color: white;
+ }
+ button
+ {
+  background: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+ }
+
+table
+{
+  width: 100%;
+}
+th
+{
+  border: 1px solid rgba(255, 255, 255, .5);
+  background-color:  #25bb41;
+  color: white;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+.form-op td
+{
+  border: 1px solid #25BB41;
+}
+.form-op input
+{
+  border: none;
+}
+#special-div input,#oA input
+{
+  border: none;
+}
+.field-flexB input[type="text"]
+{
+  border: 1px solid black;
+}
+input[type="checkbox"]
+{
+  margin-left: 5px;
+}
+.part-tableC.ap th
+{
+  padding: 10px;
+}
+#lgf
+{
+  width: 200px;
+  padding-left: 5px;
+}
+#new-div-three
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.new-div-a 
+{
+  padding-left: 30px;
+}
+.page-modif-classG select
+{
+  width: 100%;
+  outline: none;
+  height: 100%;
+  border: none;
+}
+.page-modif-classI.ap .new-div-a
+{
+  position: relative;
+  left: 50px;
+}
+.page-modif-classI.ap .new-div-a.lv
+{
+  left: 150px;
+}
+.page-modif-classI.ap select
+{
+  border: none;
+  padding-left: 50px;
+  outline: none;
+}
+.field-flexA input
+{
+  border: 1px solid black;
+}
+#only-div
+{
+  position: relative;
+  left: 50px;
+  font-size: 14px;
+
+}

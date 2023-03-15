@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.page-modif-class,.page-modif-classA,.page-modif-classB,.page-modif-classC,.page-modif-classD,.page-modif-classE,.page-modif-classF,.page-modif-classG,.page-modif-classH,.page-modif-classI,.page-modif-classJ
+{
+  display: none;
+}
+.page-modif-class.ap,.page-modif-classA.ap,.page-modif-classB.ap,.page-modif-classC.ap,.page-modif-classD.ap,.page-modif-classE.ap,.page-modif-classF.ap,.page-modif-classG.ap,.page-modif-classH.ap,.page-modif-classI.ap,.page-modif-classJ.ap
+{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: #f2f2f2;
+}
+.normal-page-class
+{
+  display: none;
+}
+.normal-page-class.ap
+{
+  display: block;
+}
+.nouv-op
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+}
+#nouv-opA
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+}
+#nouv-opI
+{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  width: 150vh;
+  height: 529px;
+  overflow: auto;
+}
+#form-opA::-webkit-scrollbar
+{
+  width: 0;
+}
+
+legend
+{
+  padding: 5px;
+}
+#rightA,#rightB,#right,#rightC,#rightD,#rightE,#rightF,#rightG,#rightH,#rightI
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+#rightA
+{
+  position: relative;
+  left: 115em;
+}
+#op-titreA,#op-titreB,#op-titreC
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#right
+{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 180px;
+}
+#rightB
+{
+  position: relative;
+  left: 650px;
+  padding: 0;
+  margin: 0;
+  width: 180px;
+}
+#rightC
+{
+  position: relative;
+  left: 490px;
+  padding: 0;
+  margin: 0;
+  width: 180px;
+}
+#rightD
+{
+   position: relative;
+  left: 1160px;
+  padding: 0;
+  margin: 0;
+  width: 180px;
+}
+#rightG
+{
+  position: relative;
+  left: 330px;
+}
+#rightI
+{
+  position: relative;
+  left: 380px;
+}
+.op-titre
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#valid-op
+{
+  padding: 10px;
+  border:none;
+  background: #25bb41;
+  color: white;
+  cursor: pointer;
+
+}
+input
+{
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 1px solid black;
+}
+fieldset
+{
+  padding: 45px;
+  margin: 15px;
+}
+#form-opA,#form-opB,.form-op,#form-opC
+{
+  display: block;
+  overflow: auto;
+  overflow-wrap: break-word;
+
+}
+#form-opA input,#form-opB input,.form-op input,#form-opC input
+{
+  border: none;
+}
+.form-op-div
+{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.field-flex
+{
+  display: flex;
+  justify-content: space-between;
+}
+.nav{
+
+  color: white;
+  background-color: #25bb41;
+  padding: 20px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+#bars{
+  font-size: 150%;
+}
+#logo
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}.nav-d
+{
+  padding: 10px;
+}
+#middle
+{
+  width: 100%;
+  height: 100%;
+  background-color: #fdfcff;
+  display: flex;
+  position: fixed;
+}
+#menu-img
+{
+  width: 12%;
+  position: relative;
+  top: 11px;
+  left: 8px;
+  margin-right: 10px;
+
+}
+#m-g::-webkit-scrollbar,#m-d::-webkit-scrollbar,body::-webkit-scrollbar,#form-opB::-webkit-scrollbar,.form-op::-webkit-scrollbar,#form-opC::-webkit-scrollbar
+{
+  width: 0px;
+}
+#m-g
+{
+  width: 25%;
+  background-color:#25BB41;
+  color: white;
+  overflow: auto;
+  white-space: nowrap;
+  display: grid;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+#m-d
+{
+  width: 75%;
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+.titresec
+{
+  margin-left: 30px;
+  margin-bottom: 40px;
+  display: none;
+}
+.titresec.ap
+{
+  display: block;
+}
+#titre-en
+{
+  margin-bottom: 20px;
+}
+.DQI,.DQE,#DQI-el,#DQE-el
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.DQI,.DQE
+{
+  display: none;
+}
+ .DQI.ap,.DQE.ap
+ {
+  display: block;
+ }
+ input[list="Op"]
+ {
+   width: 280px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background: none;
+  outline: none;
+  position: relative;
+  right: 10px;
+  border: 2px solid #25BB41;
+ }
+ #part-form
+ {
+  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+ }
+ .ferm-div
+ {
+  background: #66D3FA;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+ }
+ button
+ {
+  background: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+ }
+ button:hover
+ {
+  background: #25bb41;
+  color: white;
+ }
+a
+{
+  text-decoration: none;
+  color: white;
+}
+table
+{
+  width: 100%;
+}
+#form-opA th
+{
+  padding: 10px;
+  margin: 10x;
+}
+ th
+ {
+    border: 1px solid rgba(255, 255, 255, .5);
+    background-color:  #25bb41;
+    color: white;
+}
+td
+{
+  border: 1px solid #25BB41;
+  text-align: center;
+}
+
+.field-flexA
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-opC .field-flexA input
+{
+  border: 1px solid black;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fiches Qualité</title>
+	<link rel="stylesheet" type="text/css" href="../css/FQ-DQE.css">
+	<link rel="icon" type="text/css" href="../img/lg1.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../js/fq-dqe.js"></script>
+</head>
+<body>
+	<section id="page-modif" class="page-modif-class">
+		<div class="nouv-op">
+
+			<form class="form-op">
+				<div class="op-titre">
+					<span>Registre des Documents externes</span>
+					<div id="right">
+						<span class="ferm-div" onclick="ret()">Retour</span>
+						<input type="submit" value="Modifier" id="valid-op" name="valid-op">
+					</div>
+					
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Référence : </label>
+					<input type="text" value="S-PR-01-FQ-02" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de création : </label>
+					<input type="date" value="" disabled="disabled">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Date de<br/>Modification :</label>
+					<input type="date" value="">
+				</div><br/>
+				<div class="form-op-div">
+					<label for="">Version : </label>
+					<input type="text" value="1.0" disabled="disabled">
+				</div><br/>
+				<div class="field-flex">
+					<table cellpadding="5px" cellpadding="5px">
+						<tr>
+							<th>Document </th>
+							<th>Edition</th>
+							<th>Source</th>
+							<th>Récepteur/Resp. de suivi des éditions et du retrait des éditions périmées</th>
+							<th>Lieu du classement</th>
+							<th>Points de diffusion</th>
+						</tr>
+						<tr>
+							<td><input type="text" id="pprdi" name="pprdi"></td>
+							<td><input type="text" id="dprdi" name="dprdi"></td>
+							<td><input type="text" id="rdi" name="rdi"></td>
+							<td><input type="text" id="redrdi" name="redrdi"></td>
+							<td><input type="text" id="vrdi" name="vrdi"></td>
+							<td><input type="text" id="vardi" name="vardi"></td>
+						</tr>
+					</table>
+			</div>
+
+
+			</form>
+		</div>
+	</section>
+
+	<section id="normal-page" class="normal-page-class ap">
+		<div class="nav">
+				<div id="logo">
+						<i class="fa fa-bars" id="bars" aria-hidden="true"></i>
+						<span><a href="accueil.html">RAMAQS</a></span>
+				</div>
+				<div>
+						<span class="nav-d">Connexion</span>
+						<span class="nav-d">Gestion</span>
+						<span class="nav-d">Menu</span>
+					</ul>
+				</div>
+		</div>
+
+			<div id="middle">
+
+				<div id="m-g">
+					
+					<div id="gestion">
+						<div class="titre-en">
+							<span><img id="menu-img" src="../img/menu.png"></span>
+							<span>Gestion Des Utilisateurs</span>
+						</div><br/>
+
+						<div id="Documents">
+							<div class="titre-en">
+								<span><img id="menu-img" src="../img/menu.png"></span>
+								<span id="gel" onclick="gel()">Gestion des documents</span>
+							</div><br/>
+								<div id="gdoc-el">
+									<div id="actuels">
+										<div id="titresecA" class="titresec ap">
+											<span><img id="menu-img" src="../img/doc.png"></span>
+											<span id="ac" onclick="ac()">Actuels</span>
+										</div>
+										<div id="dqiA" class="DQI ap">
+											<span>Documents de Qualité Internes</span>
+											<div id="DQI-el">
+												<span><a href="EQ-DQI.html">Enregistrements Qualité</a></span><br/><br/>
+												<span><a href="FQ-DQI.html">Fiches Qualité</a></span><br/><br/>
+												<span>Instructions de Travail</span><br/><br/>
+												<span>Modes Opératoires</span>
+												
+											</div>
+										</div>
+										<div id="dqeA" class="DQE ap">
+											<span class="titre-en">Documents de Qualité Externes</span>
+											<div id="DQE-el">
+												<span>Fiches Qualité</span><br/><br/>
+											</div>
+										</div>
+										
+									</div>
+									<div id="archives">
+										<div id="titresecB" class="titresec ap">
+											<span><img id="menu-img" src="../img/ar.png"></span>
+											<span id="ar" onclick="ar()">Archives</span>
+										</div>
+										<div id="dqiB" class="DQI">
+											<span>Documents de Qualité Internes</span>
+											<div id="DQI-el">
+												<span>Enregistrements Qualité</span><br/><br/>
+												<span>Fiches Qualité</span><br/><br/>
+												<span>Instructions de Travail</span><br/><br/>
+												<span>Modes Opératoires</span>
+												
+											</div>
+										</div>
+										<div id="dqeB" class="DQE">
+											<span class="titre-en">Documents de Qualité Externes</span>
+											<div id="DQE-el">
+												<span>Fiches Qualité</span><br/><br/>
+											</div>
+										</div>
+									</div>
+										
+										<span></span>							
+								</div>
+
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="m-d">
+					<div id="part-form">
+						<button onclick="of()"><span>1.</span><br/>Registre des documents externes</button>
+						
+					</div>
+				</div>
+				
+
+			
+		</div>
+	</section>
+</body>
+</html>
